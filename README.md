@@ -22,6 +22,12 @@ npm install
 npm run dev
 ```
 
+### How to Deploy
+|STG|BRANCH|TRIGGER|URL|
+|------|---|---|---|
+|DEV|Branch of PR|manual firebase cmd|[https://vue1-1ce56.web.app/](https://vue1-1ce56.web.app/)|
+|PRD|main|Auto Github Action|[rahee-hello-vue.github.io](https://github.com/rahee-hello-vue/rahee-hello-vue.github.io)|
+
 ### Compile and Minify for Production
 
 ```sh
