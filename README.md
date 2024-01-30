@@ -3,9 +3,9 @@
 This template should help get you started developing with Vue 3 in Vite.
 
 ### How to Contribute
-WSL Ubuntu 22.04 LTS
-vim
-vue
+- WSL Ubuntu 22.04 LTS
+- vim
+- vue
 
 
 ### How to Deploy
