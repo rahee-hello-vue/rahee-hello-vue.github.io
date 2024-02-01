@@ -1,29 +1,59 @@
 <script setup>
-import { ref, onMounted, onUpdated, onBeforeUpdate } from 'vue'
+import { ref } from 'vue'
 
-const count = ref(0)
+let id = 0
+const newTodo = ref('')
+const todos = ref([
+	{ 
+		id: id++, 
+		issue: 'backlog'
+	},
+	{ 
+		id: id++, 
+		issue: 'Todo'
+	},
+	{
+		id: id++,
+		issue: 'Going Hawaii'
+	}
+])
 
-// 컴포넌트가 마운트될 때 실행될 로직을 정의합니다.
-onMounted(() => {
-  console.log('Component is mounted')
-})
 
-// 컴포넌트가 업데이트되기 전에 실행될 로직을 정의합니다.
-onBeforeUpdate(() => {
-  console.log('Component is about to update')
-})
+function addTodo(e){
+	e.preventDefault();
 
-// 컴포넌트가 업데이트된 후 실행될 로직을 정의합니다.
-onUpdated(() => {
-  console.log('Component is updated')
-})
+	// todos 에 넣기 
+	todos.value.push({
+		id: id++,
+		issue: newTodo.value
+	});
+	
+	//입력창 초기화
+	newTodo.value = '';
+}
+
+function removeTodo(todo){
+	 // todoList 배열에서 해당하는 todo를 제외한 새 배열을 생성하여 todos 변수에 다시 할당
+	todos.value = todos.value.filter(item => item !== todo);
+}
+
+//const removeTodo = (todo) => {
+//   todos.value = todos.value.filter(item => item.id !== todo.id)
+//}
+
 </script>
 
 <template>
-  <!-- 버튼을 클릭하면 count 값을 증가시키는 이벤트 핸들러를 정의합니다. -->
-  <button @click="count++"> {{ `gg${count}gg` }} </button>
+	<form @submit="addTodo">
+		<input v-model="newTodo">
+		<button type="submit">ADD</button>
+	</form>
+	<ul>
+		<li v-for="todo in todos">
+			{{ todo.issue }} - <button @click="removeTodo(todo)">x</button>	
+		</li>
+	</ul>
 </template>
 
-<!-- scoped 스타일을 정의합니다. -->
 <style scoped>
 </style>
