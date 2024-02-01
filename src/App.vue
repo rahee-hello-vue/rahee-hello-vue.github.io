@@ -6,11 +6,17 @@ const author = ref({
 	books: [1,2,3]
 });
 
+
+// a computed ref
+const bookmessage = computed( () => {
+	return author.value.books.length > 2 ? 'yes' : 'no'
+});
+
 </script>
 
 <template>
 	<p>has published books:</p>
-	<p> {{ author.books.length > 2 ? 'yes' : 'no' }} </p>
+	<p> {{ bookmessage }} </p>
 </template>
 
 <style scoped>
