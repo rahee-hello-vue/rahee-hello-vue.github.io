@@ -27,4 +27,3 @@ onUpdated(() => {
 <!-- scoped 스타일을 정의합니다. -->
 <style scoped>
 </style>
-
