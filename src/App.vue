@@ -21,7 +21,7 @@ onUpdated(() => {
 
 <template>
   <!-- 버튼을 클릭하면 count 값을 증가시키는 이벤트 핸들러를 정의합니다. -->
-  <button @click="count++"> {{ count }} </button>
+  <button @click="count++"> {{ `gg${count}gg` }} </button>
 </template>
 
 <!-- scoped 스타일을 정의합니다. -->
