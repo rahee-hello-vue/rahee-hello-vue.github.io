@@ -1,15 +1,15 @@
 <script setup>
-import { ref } from 'vue' 
+import { ref, onUpdated } from 'vue' 
 
-const message = ref('')
+const count = ref(0)
+onUpdated( () => {
+	console.log(document.getElementById('count').textContent)
+ });
 </script>
 
 <template>
 
-	<span> multiline message is : </span>
-	<p> {{  message }} </p>
-	<textarea v-model="message" placeholder="기입해주세요"></textarea>
-	
+	<button id="count" @click="count++"> {{ count }} </button>	
 
 </template>
 
