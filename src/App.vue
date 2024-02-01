@@ -12,11 +12,14 @@ const bookmessage = computed( () => {
 	return author.value.books.length > 2 ? 'yes' : 'no'
 });
 
+
+
 </script>
 
 <template>
-	<p>has published books:</p>
-	<p> {{ bookmessage }} </p>
+	<p>has published books : {{ bookmessage }} </p>
+	<p> computed </p>
+	<p>Yes</p>
 </template>
 
 <style scoped>
