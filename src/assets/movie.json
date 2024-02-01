@@ -1,0 +1,159 @@
+{
+  "movies": [
+    {
+      "title_kor": "로스트 도터",
+      "title_eng": "THE LOST DAUGHTER, 2021",
+      "poster_url": "https://movie-phinf.pstatic.net/20220714_114/1657780525423jmTpw_JPEG/movie_image.jpg?type=m203_290_2",
+      "rating_aud": "7.78",
+      "rating_cri": "6.86",
+      "rating_net": "7.69",
+      "genre": "드라마",
+      "showtimes": "122분",
+      "release_date": "2022.07.14 개봉",
+      "rate": "15세 관람가",
+      "summary": "그리스로 혼자 휴가를 떠난 대학 교수 레다는\n 딸을 가진 젊은 여자 니나를 보고 단번에 시선을 빼앗긴다.\n 매일 같은 해변에서 시간을 보내며 서로를 응시하던 두 사람,\n 갑자기 니나의 딸이 사라지고 레다는 옛 기억을 떠올린다.",
+      "staff": [
+        {
+          "name": "매기 질렌할",
+          "role": "감독",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000056%2FPM5699_115943_000.jpg&type=u111_139&quality=95"
+        },
+        {
+          "name": "올리비아 콜맨",
+          "role": "주연",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000001304%2FPM130405_171757_000.jpg&type=u111_139&quality=95"
+        },
+        {
+          "name": "다코타 존슨",
+          "role": "주연",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000002412%2FPM241245_160350_000.jpg&type=u111_139&quality=95"
+        },
+        {
+          "name": "제시 버클리",
+          "role": "주연",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000004236%2FPM423602_141322_000.jpg&type=u111_139&quality=95"
+        },
+        {
+          "name": "폴 메스칼",
+          "role": "조연",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000004601%2FPM460116_174423_000.jpg&type=u111_139&quality=95"
+        },
+        {
+          "name": "피터 사스가드",
+          "role": "조연",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000065%2FPM6527_141135_000.jpg&type=u111_139&quality=95"
+        }
+      ]
+    },
+    {
+      "title_kor": "메모리",
+      "title_eng": "Memory, 2022",
+      "poster_url": "https://movie-phinf.pstatic.net/20220701_119/1656638283242mAjqJ_JPEG/movie_image.jpg?type=m203_290_2",
+      "rating_aud": "7.50",
+      "rating_cri": "",
+      "rating_net": "7.55",
+      "genre": "범죄,액션,스릴러",
+      "showtimes": "114분",
+      "release_date": "2022.07.14 개봉",
+      "rate": "15세 관람가",
+      "summary": "단 한번의 실패도 실수도 용납할 수 없는 킬러 ‘알렉스’(리암 니슨)\n 어느 날, 그에게 새로운 의뢰가 들어온다.\n \n 오직 자신의 신념에 따라 움직인 그는\n 이 사건에 한 소녀가 연관되어 있음을 알게 되고 단칼에 거절한다.\n \n 의뢰를 거절했다는 이유로, 모두의 표적이 되어버린 그는\n 오래된 병으로 인해 희미해져 가는 기억을 붙잡고,\n 소녀와 자신을 지키기 위해 의뢰에 연관된 모든 것들을 응징하기로 한다.\n \n 한편, 멕시코 국경에서 사건을 맹렬히 쫓던\n FBI 요원 ‘빈센트’(가이 피어스)는 ‘알렉스’를 만나게 되고,\n 두 사람은 이 사건의 거대한 비밀과 마주하게 되는데…\n \n 사라지는 기억, 더욱 선명해지는 정의!\n 마지막 응징이 시작된다!",
+      "staff": [
+        {
+          "name": "마틴 캠벨",
+          "role": "감독",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000026%2FPM2632_172722_000.jpg&type=u111_139&quality=95"
+        },
+        {
+          "name": "리암 니슨",
+          "role": "주연",
+          "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F187%2F202207131022237361.png&type=u111_139&quality=95"
+        },
+        {
+          "name": "가이 피어스",
+          "role": "주연",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000021%2FPM2147_175323_000.jpg&type=u111_139&quality=95"
+        },
+        {
+          "name": "모니카 벨루치",
+          "role": "주연",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000028%2FPM2866_103529_000.jpg&type=u111_139&quality=95"
+        },
+        {
+          "name": "레이 스티븐슨",
+          "role": "주연",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000446%2FPM44688_115128_000.jpg&type=u111_139&quality=95"
+        }
+      ]
+    },
+    {
+      "title_kor": "군다",
+      "title_eng": "Gunda, 2020",
+      "poster_url": "https://movie-phinf.pstatic.net/20220628_282/1656381331221VmPay_JPEG/movie_image.jpg?type=m203_290_2",
+      "rating_aud": "7.00",
+      "rating_cri": "7.50",
+      "rating_net": "8.05",
+      "genre": "다큐멘터리",
+      "showtimes": "93분",
+      "release_date": "2022.07.14 개봉",
+      "rate": "전체 관람가",
+      "summary": "돼지, 소, 닭의 평온한 일상은\n 인간을 대자연의 세계로 초대한다",
+      "staff": [
+        {
+          "name": "빅토르 코사코프스키",
+          "role": "감독",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000003103%2FPM310322_143545_000.jpg&type=u111_139&quality=95"
+        }
+      ]
+    },
+    {
+      "title_kor": "섹스 앤 퓨리",
+      "title_eng": "Syysprinssi, Love and Fury, 2016",
+      "poster_url": "https://movie-phinf.pstatic.net/20220602_186/16541343618350olGv_JPEG/movie_image.jpg?type=m203_290_2",
+      "rating_aud": "",
+      "rating_cri": "",
+      "rating_net": "0.00",
+      "genre": "멜로/로맨스,드라마",
+      "showtimes": "90분",
+      "release_date": "2022.07.14 개봉",
+      "rate": "15세 관람가",
+      "summary": "기성 문화에 맞서 젊은 에너지로 문화를 바꿔보려는 두 작가 ‘잉카’와 ‘유하나’\n 뜨거운 사랑을 나눔과 동시에 서로의 뮤즈가 되어 각자의 글을 써 내려간다.\n 그렇게 사랑을 키워가던 중 ‘잉카’의 책은 베스트셀러가 된 반면\n 여전히 책을 완성하지 못한 ‘유하나’는 열등감에 휩싸여 삐뚤어진 사랑 표현을 하고.\n 계속 타오를 것 같던 두 사람의 관계에 금이 가기 시작한다..",
+      "staff": [
+        {
+          "name": "앨리 하파살로",
+          "role": "감독",
+          "image_url": "https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png"
+        },
+        {
+          "name": "로라 비른",
+          "role": "주연",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000001857%2FPM185736_134238_000.jpg&type=u111_139&quality=95"
+        },
+        {
+          "name": "로리 틸카넨",
+          "role": "주연",
+          "image_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000002376%2FPM237688_161901_000.jpg&type=u111_139&quality=95"
+        }
+      ]
+    },
+    {
+      "title_kor": "명탐정 코난: 할로윈의 신부",
+      "title_eng": "名探偵コナン: ハロウィンの花嫁, Detective Conan: The Bride of Halloween, 202...",
+      "poster_url": "https://movie-phinf.pstatic.net/20220704_246/16569027452369rlGb_JPEG/movie_image.jpg?type=m203_290_2",
+      "rating_aud": "9.10",
+      "rating_cri": "7.00",
+      "rating_net": "9.52",
+      "genre": "애니메이션",
+      "showtimes": "110분",
+      "release_date": "2022.07.13 개봉",
+      "rate": "12세 관람가",
+      "summary": "극악무도한 폭파범 ‘플라먀’에 의해 교묘한 함정에 빠진 아무로 토오루!\n 모든 것이 베일에 가려진 ‘플라먀’,\n 유일한 단서는 아무로 토오루가 그의 경찰 동기들과 마지막으로 함께 했던 하루.\n 이와 동시에 결혼식의 신부가 된 경시청의 사토 형사는 불길한 예감을 감출 수 없는데…\n \n 도시 전체를 인질로 삼은 ‘플라먀’,\n 그리고 이를 막으려 하는 아무로 토오루와 명탐정 코난의 숨 막히는 공조!\n 다시 시작된 카운트다운, 할로윈의 밤이 광란으로 빛난다!",
+      "staff": [
+        {
+          "name": "미츠나카 스스무",
+          "role": "감독",
+          "image_url": "https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png"
+        }
+      ]
+    }
+      ]
+}
