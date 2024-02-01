@@ -1,14 +1,16 @@
 <script setup>
-function say(mesg){
-	alert(mesg)
-}
+import { ref } from 'vue' 
 
-
+const message = ref('')
 </script>
 
 <template>
-	<button @click="say('hello')">say hello</button>
-	<button @click="say('bye')">say bye</button>
+
+	<span> multiline message is : </span>
+	<p> {{  message }} </p>
+	<textarea v-model="message" placeholder="기입해주세요"></textarea>
+	
+
 </template>
 
 <style scoped>
