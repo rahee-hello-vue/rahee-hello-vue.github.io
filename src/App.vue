@@ -5,19 +5,19 @@ const show = ref(true)
 const list = ref([1,2,3])
 
 
-function listToggle(){
+const listToggle = () => {
 	 document.querySelector('.text').innerHTML = ''
 	show.value = !show.value;
 }
 
-function listAdd(){
+const listAdd = () => {
 	const num = list.value.length + 1; 
 	const addItem = list.value.push(num);
 	 document.querySelector('.text').innerHTML= `${addItem}가 추가 되었습니다`
 
 }
 
-function listRemove(){
+const listRemove = () => {
 	if ( list.value.length > 0 ) {
 	const removeItem = list.value.pop();
 		 document.querySelector('.text').innerHTML = `${removeItem}가 제거되었습니다`	
@@ -26,7 +26,8 @@ function listRemove(){
 	}
 }	
 
-function listReverse(){
+const listReverse = () => {
+	 document.querySelector('.text').innerHTML = ''
 	const reverse = list.value.reverse();
 	 document.querySelector('.text').innerHTML  = reverse.value.join(', ');
 }
