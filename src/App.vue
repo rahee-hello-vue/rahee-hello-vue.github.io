@@ -13,13 +13,22 @@ async function fetchData(){
 
 	todoData.value = await res.json();
 }
-watch(todoData, fetchData);
+
+
 fetchData();
+
+function get(){
+	todoId.value++	
+}
+
+//감시자 
+watch(todoId, fetchData)
+
 </script>
 
 <template>
 	<p> Todo id : {{ todoId }} </p>
-	 <button @click="todoId++" :disabled="!todoData">Fetch next todo</button>
+	 <button @click="get" :disabled="!todoData">Fetch next todo</button>
 	<p v-if="!todoData">Loading</p>
 	<pre v-else> {{ todoData }} </pre>
 
